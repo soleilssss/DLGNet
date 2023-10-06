@@ -3,7 +3,7 @@ DLGNet: A dual-branch lesion-aware network with the supervised Gaussian Mixture 
 
 Our paper has been accepted by Medical Image Analysis.
 
-# Training the Model
+## Training the Model
 
 python train_test.py
 
@@ -20,3 +20,9 @@ best_path = The path where the model with the best result on the validation set 
 First go into the train_test and adapt all the paths to match your file system and the download locations of training and test sets.
 
 Then python train_test.py to train your dataset.
+
+## Citation
+
+If you find the code useful for your research, please cite our paper.
+
+Wang, Kai-Ni, et al. "DLGNet: A dual-branch lesion-aware network with the supervised Gaussian Mixture model for colon lesions classification in colonoscopy images." Medical Image Analysis 87 (2023): 102832.
